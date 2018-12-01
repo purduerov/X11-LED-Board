@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.3.2">
+<eagle version="9.1.3">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -11976,7 +11976,7 @@ http://www.zetex.com&lt;p&gt;
 <instance part="J8" gate="G$1" x="71.12" y="81.28"/>
 <instance part="J9" gate="G$1" x="45.72" y="81.28"/>
 <instance part="U$3" gate="G$1" x="231.14" y="114.3" rot="R270"/>
-<instance part="T2" gate="A" x="231.14" y="99.06"/>
+<instance part="T2" gate="A" x="96.52" y="114.3"/>
 </instances>
 <busses>
 </busses>
@@ -12041,7 +12041,8 @@ http://www.zetex.com&lt;p&gt;
 <segment>
 <pinref part="U$1" gate="G$1" pin="VIN"/>
 <wire x1="124.46" y1="121.92" x2="101.6" y2="121.92" width="0.1524" layer="91"/>
-<wire x1="101.6" y1="121.92" x2="76.2" y2="121.92" width="0.1524" layer="91"/>
+<wire x1="101.6" y1="121.92" x2="96.52" y2="121.92" width="0.1524" layer="91"/>
+<wire x1="96.52" y1="121.92" x2="76.2" y2="121.92" width="0.1524" layer="91"/>
 <wire x1="76.2" y1="121.92" x2="63.5" y2="121.92" width="0.1524" layer="91"/>
 <wire x1="63.5" y1="121.92" x2="53.34" y2="121.92" width="0.1524" layer="91"/>
 <wire x1="76.2" y1="121.92" x2="76.2" y2="119.38" width="0.1524" layer="91"/>
@@ -12055,10 +12056,9 @@ http://www.zetex.com&lt;p&gt;
 <wire x1="63.5" y1="119.38" x2="63.5" y2="121.92" width="0.1524" layer="91"/>
 <junction x="63.5" y="121.92"/>
 <pinref part="C3" gate="G$1" pin="1"/>
-<pinref part="U$1" gate="G$1" pin="EN"/>
-<wire x1="124.46" y1="116.84" x2="101.6" y2="116.84" width="0.1524" layer="91"/>
-<wire x1="101.6" y1="119.38" x2="101.6" y2="116.84" width="0.1524" layer="91"/>
-<junction x="101.6" y="119.38"/>
+<pinref part="T2" gate="A" pin="D"/>
+<wire x1="96.52" y1="119.38" x2="96.52" y2="121.92" width="0.1524" layer="91"/>
+<junction x="96.52" y="121.92"/>
 </segment>
 <segment>
 <wire x1="53.34" y1="83.82" x2="60.96" y2="83.82" width="0.1524" layer="91"/>
@@ -12126,8 +12126,8 @@ http://www.zetex.com&lt;p&gt;
 <wire x1="121.92" y1="114.3" x2="124.46" y2="114.3" width="0.1524" layer="91"/>
 <label x="208.28" y="91.44" size="1.778" layer="95"/>
 <wire x1="231.14" y1="91.44" x2="205.74" y2="91.44" width="0.1524" layer="91"/>
-<pinref part="T2" gate="A" pin="S"/>
-<wire x1="231.14" y1="93.98" x2="231.14" y2="91.44" width="0.1524" layer="91"/>
+<pinref part="U$3" gate="G$1" pin="LED-"/>
+<wire x1="231.14" y1="91.44" x2="231.14" y2="106.68" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="VCC6211" class="0">
@@ -12156,15 +12156,17 @@ http://www.zetex.com&lt;p&gt;
 </segment>
 <segment>
 <pinref part="T2" gate="A" pin="G"/>
-<wire x1="226.06" y1="96.52" x2="215.9" y2="96.52" width="0.1524" layer="91"/>
-<label x="213.36" y="96.52" size="1.778" layer="95"/>
+<wire x1="91.44" y1="111.76" x2="91.44" y2="101.6" width="0.1524" layer="91"/>
+<label x="91.44" y="101.6" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$3" class="0">
+<net name="N$7" class="0">
 <segment>
-<pinref part="T2" gate="A" pin="D"/>
-<pinref part="U$3" gate="G$1" pin="LED-"/>
-<wire x1="231.14" y1="104.14" x2="231.14" y2="106.68" width="0.1524" layer="91"/>
+<pinref part="T2" gate="A" pin="S"/>
+<wire x1="96.52" y1="109.22" x2="116.84" y2="109.22" width="0.1524" layer="91"/>
+<pinref part="U$1" gate="G$1" pin="EN"/>
+<wire x1="116.84" y1="109.22" x2="116.84" y2="116.84" width="0.1524" layer="91"/>
+<wire x1="116.84" y1="116.84" x2="124.46" y2="116.84" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
