@@ -11,6 +11,16 @@
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
 <layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
+<layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
+<layer number="5" name="Route5" color="4" fill="4" visible="no" active="no"/>
+<layer number="6" name="Route6" color="1" fill="8" visible="no" active="no"/>
+<layer number="7" name="Route7" color="4" fill="8" visible="no" active="no"/>
+<layer number="8" name="Route8" color="1" fill="2" visible="no" active="no"/>
+<layer number="9" name="Route9" color="4" fill="2" visible="no" active="no"/>
+<layer number="10" name="Route10" color="1" fill="7" visible="no" active="no"/>
+<layer number="11" name="Route11" color="4" fill="7" visible="no" active="no"/>
+<layer number="12" name="Route12" color="1" fill="5" visible="no" active="no"/>
+<layer number="13" name="Route13" color="4" fill="5" visible="no" active="no"/>
 <layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
 <layer number="15" name="Route15" color="4" fill="6" visible="no" active="no"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
@@ -6976,16 +6986,6 @@ part number 2062-2P from STA</description>
 </package>
 </packages>
 <packages3d>
-<package3d name="1X01_LONGPAD" urn="urn:adsk.eagle:package:38030/1" type="box" library_version="1">
-<description>Plated Through Hole - Long Pad
-Specifications:
-Pin count:1
-Pin pitch:0.1"
-
-Example device(s):
-CONN_01
-</description>
-</package3d>
 <package3d name="1X01" urn="urn:adsk.eagle:package:38028/1" type="box" library_version="1">
 <description>Plated Through Hole
 Specifications:
@@ -6995,109 +6995,9 @@ Pin pitch:0.1"
 Example device(s):
 CONN_01
 </description>
-</package3d>
-<package3d name="1X01_2MM" urn="urn:adsk.eagle:package:38029/1" type="box" library_version="1">
-<description>Plated Through Hole - 2mm
-Specifications:
-Pin count:1
-
-Example device(s):
-CONN_01
-</description>
-</package3d>
-<package3d name="1X01_OFFSET" urn="urn:adsk.eagle:package:38035/1" type="box" library_version="1">
-<description>Plated Through Hole - Long Pad w/ Offset Hole
-Specifications:
-Pin count:1
-
-Example device(s):
-CONN_01
-</description>
-</package3d>
-<package3d name="1X01_POGOPIN_HOLE_0.061_DIA" urn="urn:adsk.eagle:package:38036/1" type="box" library_version="1">
-<description>Pogo Pin - 0.061"
-Specifications:
-Pin count:1
-Pin pitch:0.061"
-
-Example device(s):
-CONN_01
-</description>
-</package3d>
-<package3d name="1X01_POGOPIN_HOLE_0.58_DIA" urn="urn:adsk.eagle:package:38031/1" type="box" library_version="1">
-<description>Pogo Pin Hole - 0.58" 
-Specifications:
-Pin count:1
-Pin pitch:0.58"
-
-Example device(s):
-CONN_01
-</description>
-</package3d>
-<package3d name="SNAP-FEMALE" urn="urn:adsk.eagle:package:38032/1" type="box" library_version="1">
-<description>Sew-On Fabric Snap - Female
-Equivalent to size #1/0 snap. 
-Specifications:
-Pin count: 1
-Area:8mm
-
-Example device(s):
-CONN_01
-</description>
-</package3d>
-<package3d name="SNAP-MALE" urn="urn:adsk.eagle:package:38033/1" type="box" library_version="1">
-<description>Sew-On Fabric Snap - Male
-Equivalent to size #1/0 snap. 
-Specifications:
-Pin count: 1
-Area:8mm
-
-Example device(s):
-CONN_01
-</description>
-</package3d>
-<package3d name="SPRING-CONNECTOR" urn="urn:adsk.eagle:package:38034/1" type="box" library_version="1">
-<description>Spring Connector
-Specifications:
-Pin count: 1
-Area:0.25"
-
-Example device(s):
-CONN_01
-</description>
-</package3d>
-<package3d name="1X01NS_KIT" urn="urn:adsk.eagle:package:38038/1" type="box" library_version="1">
-<description>Plated Through Hole - No Silk Outline Kit Version
- Mask on only one side to make soldering in kits easier.
-Specifications:
-Pin count:1
-Pin pitch:0.1"
-
-Example device(s):
-CONN_01
-</description>
-</package3d>
-<package3d name="1X01_NO_SILK" urn="urn:adsk.eagle:package:38041/1" type="box" library_version="1">
-<description>Plated Through Hole - No Silk Outline
-Specifications:
-Pin count:1
-Pin pitch:0.1"
-
-Example device(s):
-CONN_01
-</description>
-</package3d>
-<package3d name="SMTSO-256-ET-0.165DIA" urn="urn:adsk.eagle:package:38037/1" type="box" library_version="1">
-<description>SMTSO-256-ET Flush Mount Nut
-.165 drill
-
-Fits 4-40 Screws. 
-Specifications:
-Pin count: 1
-
-Example device(s):
-CONN_01
-</description>
+<packageinstances>
+<packageinstance name="1X01"/>
+</packageinstances>
 </package3d>
 <package3d name="1X02" urn="urn:adsk.eagle:package:38039/1" type="box" library_version="1">
 <description>Plated Through Hole
@@ -7339,6 +7239,152 @@ CONN_02
 part number 2062-2P from STA</description>
 </package3d>
 <package3d name="1X02_RA_PTH_FEMALE" urn="urn:adsk.eagle:package:38062/1" type="box" library_version="1">
+</package3d>
+<package3d name="1X01_LONGPAD" urn="urn:adsk.eagle:package:38030/1" type="box" library_version="1">
+<description>Plated Through Hole - Long Pad
+Specifications:
+Pin count:1
+Pin pitch:0.1"
+
+Example device(s):
+CONN_01
+</description>
+<packageinstances>
+<packageinstance name="1X01_LONGPAD"/>
+</packageinstances>
+</package3d>
+<package3d name="1X01_2MM" urn="urn:adsk.eagle:package:38029/1" type="box" library_version="1">
+<description>Plated Through Hole - 2mm
+Specifications:
+Pin count:1
+
+Example device(s):
+CONN_01
+</description>
+<packageinstances>
+<packageinstance name="1X01_2MM"/>
+</packageinstances>
+</package3d>
+<package3d name="1X01_OFFSET" urn="urn:adsk.eagle:package:38035/1" type="box" library_version="1">
+<description>Plated Through Hole - Long Pad w/ Offset Hole
+Specifications:
+Pin count:1
+
+Example device(s):
+CONN_01
+</description>
+<packageinstances>
+<packageinstance name="1X01_OFFSET"/>
+</packageinstances>
+</package3d>
+<package3d name="1X01_POGOPIN_HOLE_0.061_DIA" urn="urn:adsk.eagle:package:38036/1" type="box" library_version="1">
+<description>Pogo Pin - 0.061"
+Specifications:
+Pin count:1
+Pin pitch:0.061"
+
+Example device(s):
+CONN_01
+</description>
+<packageinstances>
+<packageinstance name="1X01_POGOPIN_HOLE_0.061_DIA"/>
+</packageinstances>
+</package3d>
+<package3d name="1X01_POGOPIN_HOLE_0.58_DIA" urn="urn:adsk.eagle:package:38031/1" type="box" library_version="1">
+<description>Pogo Pin Hole - 0.58" 
+Specifications:
+Pin count:1
+Pin pitch:0.58"
+
+Example device(s):
+CONN_01
+</description>
+<packageinstances>
+<packageinstance name="1X01_POGOPIN_HOLE_0.58_DIA"/>
+</packageinstances>
+</package3d>
+<package3d name="SNAP-FEMALE" urn="urn:adsk.eagle:package:38032/1" type="box" library_version="1">
+<description>Sew-On Fabric Snap - Female
+Equivalent to size #1/0 snap. 
+Specifications:
+Pin count: 1
+Area:8mm
+
+Example device(s):
+CONN_01
+</description>
+<packageinstances>
+<packageinstance name="SNAP-FEMALE"/>
+</packageinstances>
+</package3d>
+<package3d name="SNAP-MALE" urn="urn:adsk.eagle:package:38033/1" type="box" library_version="1">
+<description>Sew-On Fabric Snap - Male
+Equivalent to size #1/0 snap. 
+Specifications:
+Pin count: 1
+Area:8mm
+
+Example device(s):
+CONN_01
+</description>
+<packageinstances>
+<packageinstance name="SNAP-MALE"/>
+</packageinstances>
+</package3d>
+<package3d name="SPRING-CONNECTOR" urn="urn:adsk.eagle:package:38034/1" type="box" library_version="1">
+<description>Spring Connector
+Specifications:
+Pin count: 1
+Area:0.25"
+
+Example device(s):
+CONN_01
+</description>
+<packageinstances>
+<packageinstance name="SPRING-CONNECTOR"/>
+</packageinstances>
+</package3d>
+<package3d name="1X01NS_KIT" urn="urn:adsk.eagle:package:38038/1" type="box" library_version="1">
+<description>Plated Through Hole - No Silk Outline Kit Version
+ Mask on only one side to make soldering in kits easier.
+Specifications:
+Pin count:1
+Pin pitch:0.1"
+
+Example device(s):
+CONN_01
+</description>
+<packageinstances>
+<packageinstance name="1X01NS_KIT"/>
+</packageinstances>
+</package3d>
+<package3d name="1X01_NO_SILK" urn="urn:adsk.eagle:package:38041/1" type="box" library_version="1">
+<description>Plated Through Hole - No Silk Outline
+Specifications:
+Pin count:1
+Pin pitch:0.1"
+
+Example device(s):
+CONN_01
+</description>
+<packageinstances>
+<packageinstance name="1X01_NO_SILK"/>
+</packageinstances>
+</package3d>
+<package3d name="SMTSO-256-ET-0.165DIA" urn="urn:adsk.eagle:package:38037/1" type="box" library_version="1">
+<description>SMTSO-256-ET Flush Mount Nut
+.165 drill
+
+Fits 4-40 Screws. 
+Specifications:
+Pin count: 1
+
+Example device(s):
+CONN_01
+</description>
+<packageinstances>
+<packageinstance name="SMTSO-256-ET-0.165DIA"/>
+</packageinstances>
 </package3d>
 </packages3d>
 <symbols>
@@ -11934,6 +11980,10 @@ http://www.zetex.com&lt;p&gt;
 <part name="J9" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_02" device="1X02_NO_SILK" package3d_urn="urn:adsk.eagle:package:38051/1"/>
 <part name="U$3" library="LED_00H53" deviceset="LED_00H53" device=""/>
 <part name="T2" library="zetex" deviceset="NMOSSOT23" device=""/>
+<part name="J2" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_01" device="" package3d_urn="urn:adsk.eagle:package:38028/1"/>
+<part name="J3" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_01" device="" package3d_urn="urn:adsk.eagle:package:38028/1"/>
+<part name="J4" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_01" device="" package3d_urn="urn:adsk.eagle:package:38028/1"/>
+<part name="J5" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_01" device="" package3d_urn="urn:adsk.eagle:package:38028/1"/>
 </parts>
 <sheets>
 <sheet>
@@ -11976,7 +12026,11 @@ http://www.zetex.com&lt;p&gt;
 <instance part="J8" gate="G$1" x="71.12" y="81.28"/>
 <instance part="J9" gate="G$1" x="45.72" y="81.28"/>
 <instance part="U$3" gate="G$1" x="231.14" y="114.3" rot="R270"/>
-<instance part="T2" gate="A" x="96.52" y="114.3"/>
+<instance part="T2" gate="A" x="231.14" y="96.52"/>
+<instance part="J2" gate="G$1" x="223.52" y="139.7"/>
+<instance part="J3" gate="G$1" x="241.3" y="139.7"/>
+<instance part="J4" gate="G$1" x="246.38" y="109.22"/>
+<instance part="J5" gate="G$1" x="246.38" y="93.98"/>
 </instances>
 <busses>
 </busses>
@@ -12042,7 +12096,8 @@ http://www.zetex.com&lt;p&gt;
 <pinref part="U$1" gate="G$1" pin="VIN"/>
 <wire x1="124.46" y1="121.92" x2="101.6" y2="121.92" width="0.1524" layer="91"/>
 <wire x1="101.6" y1="121.92" x2="96.52" y2="121.92" width="0.1524" layer="91"/>
-<wire x1="96.52" y1="121.92" x2="76.2" y2="121.92" width="0.1524" layer="91"/>
+<wire x1="96.52" y1="121.92" x2="93.98" y2="121.92" width="0.1524" layer="91"/>
+<wire x1="93.98" y1="121.92" x2="76.2" y2="121.92" width="0.1524" layer="91"/>
 <wire x1="76.2" y1="121.92" x2="63.5" y2="121.92" width="0.1524" layer="91"/>
 <wire x1="63.5" y1="121.92" x2="53.34" y2="121.92" width="0.1524" layer="91"/>
 <wire x1="76.2" y1="121.92" x2="76.2" y2="119.38" width="0.1524" layer="91"/>
@@ -12056,9 +12111,11 @@ http://www.zetex.com&lt;p&gt;
 <wire x1="63.5" y1="119.38" x2="63.5" y2="121.92" width="0.1524" layer="91"/>
 <junction x="63.5" y="121.92"/>
 <pinref part="C3" gate="G$1" pin="1"/>
-<pinref part="T2" gate="A" pin="D"/>
-<wire x1="96.52" y1="119.38" x2="96.52" y2="121.92" width="0.1524" layer="91"/>
-<junction x="96.52" y="121.92"/>
+<pinref part="U$1" gate="G$1" pin="EN"/>
+<wire x1="116.84" y1="116.84" x2="124.46" y2="116.84" width="0.1524" layer="91"/>
+<wire x1="116.84" y1="116.84" x2="93.98" y2="116.84" width="0.1524" layer="91"/>
+<wire x1="93.98" y1="116.84" x2="93.98" y2="121.92" width="0.1524" layer="91"/>
+<junction x="93.98" y="121.92"/>
 </segment>
 <segment>
 <wire x1="53.34" y1="83.82" x2="60.96" y2="83.82" width="0.1524" layer="91"/>
@@ -12111,6 +12168,12 @@ http://www.zetex.com&lt;p&gt;
 <pinref part="U$3" gate="G$1" pin="LED+"/>
 <wire x1="205.74" y1="132.08" x2="231.14" y2="132.08" width="0.1524" layer="91"/>
 <wire x1="231.14" y1="132.08" x2="231.14" y2="121.92" width="0.1524" layer="91"/>
+<pinref part="J2" gate="G$1" pin="1"/>
+<wire x1="231.14" y1="132.08" x2="231.14" y2="139.7" width="0.1524" layer="91"/>
+<junction x="231.14" y="132.08"/>
+<pinref part="J3" gate="G$1" pin="1"/>
+<wire x1="231.14" y1="132.08" x2="248.92" y2="132.08" width="0.1524" layer="91"/>
+<wire x1="248.92" y1="132.08" x2="248.92" y2="139.7" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="LED-" class="0">
@@ -12125,9 +12188,8 @@ http://www.zetex.com&lt;p&gt;
 <pinref part="U$1" gate="G$1" pin="CS"/>
 <wire x1="121.92" y1="114.3" x2="124.46" y2="114.3" width="0.1524" layer="91"/>
 <label x="208.28" y="91.44" size="1.778" layer="95"/>
-<wire x1="231.14" y1="91.44" x2="205.74" y2="91.44" width="0.1524" layer="91"/>
-<pinref part="U$3" gate="G$1" pin="LED-"/>
-<wire x1="231.14" y1="91.44" x2="231.14" y2="106.68" width="0.1524" layer="91"/>
+<pinref part="T2" gate="A" pin="S"/>
+<wire x1="205.74" y1="91.44" x2="231.14" y2="91.44" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="VCC6211" class="0">
@@ -12156,17 +12218,23 @@ http://www.zetex.com&lt;p&gt;
 </segment>
 <segment>
 <pinref part="T2" gate="A" pin="G"/>
-<wire x1="91.44" y1="111.76" x2="91.44" y2="101.6" width="0.1524" layer="91"/>
-<label x="91.44" y="101.6" size="1.778" layer="95"/>
+<wire x1="226.06" y1="93.98" x2="226.06" y2="96.52" width="0.1524" layer="91"/>
+<label x="215.9" y="96.52" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$7" class="0">
+<net name="N$3" class="0">
 <segment>
-<pinref part="T2" gate="A" pin="S"/>
-<wire x1="96.52" y1="109.22" x2="116.84" y2="109.22" width="0.1524" layer="91"/>
-<pinref part="U$1" gate="G$1" pin="EN"/>
-<wire x1="116.84" y1="109.22" x2="116.84" y2="116.84" width="0.1524" layer="91"/>
-<wire x1="116.84" y1="116.84" x2="124.46" y2="116.84" width="0.1524" layer="91"/>
+<pinref part="T2" gate="A" pin="D"/>
+<pinref part="U$3" gate="G$1" pin="LED-"/>
+<wire x1="231.14" y1="101.6" x2="231.14" y2="104.14" width="0.1524" layer="91"/>
+<pinref part="J4" gate="G$1" pin="1"/>
+<wire x1="231.14" y1="104.14" x2="231.14" y2="106.68" width="0.1524" layer="91"/>
+<wire x1="231.14" y1="104.14" x2="254" y2="104.14" width="0.1524" layer="91"/>
+<wire x1="254" y1="104.14" x2="254" y2="109.22" width="0.1524" layer="91"/>
+<junction x="231.14" y="104.14"/>
+<pinref part="J5" gate="G$1" pin="1"/>
+<wire x1="254" y1="93.98" x2="254" y2="104.14" width="0.1524" layer="91"/>
+<junction x="254" y="104.14"/>
 </segment>
 </net>
 </nets>
