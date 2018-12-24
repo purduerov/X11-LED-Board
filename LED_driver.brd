@@ -2926,6 +2926,12 @@ design rules under a new name.</description>
 <vertex x="21.082" y="11.938"/>
 <vertex x="32.258" y="11.938"/>
 </polygon>
+<polygon width="0.1524" layer="16">
+<vertex x="25.654" y="12.192"/>
+<vertex x="31.75" y="12.192"/>
+<vertex x="31.75" y="8.382"/>
+<vertex x="25.654" y="8.382"/>
+</polygon>
 </signal>
 <signal name="LED-">
 <contactref element="C2" pad="2"/>
